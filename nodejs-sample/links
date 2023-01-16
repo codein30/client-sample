@@ -1,0 +1,14 @@
+Local (but w/ aws pieces):
+https://kh16hbaqxf.execute-api.us-west-2.amazonaws.com/Release/
+
+DEV:
+https://v0sz6yhq9f.execute-api.us-west-2.amazonaws.com/Release/
+
+(old)https://e8cyffr6x8.execute-api.us-west-2.amazonaws.com/Release/
+
+TST: 
+https://nmrdgojma8.execute-api.us-west-2.amazonaws.com/Release/
+
+PRD:
+
+https://kmuj6ns5o4.execute-api.us-west-2.amazonaws.com/Release/

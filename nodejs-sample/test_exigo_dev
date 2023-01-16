@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#./local up fullstack -d && ./local exec fullstack bus bash -c "node ./utils/test_uniexi_dev.js"
+
+ssh -l $1 -R 0.0.0.0:1433:localhost:1433 gateway.dev.saturnoffice.com
