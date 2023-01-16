@@ -1,0 +1,40 @@
+{
+  "name": "saturn-app-ui",
+  "version": "1.0.0",
+  "description": "saturn-app shared UI components",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "ui",
+    "saturn",
+    "saturn-co"
+  ],
+  "repository": "https://github.com/saturn-co/saturn-app",
+  "homepage": "https://saturn-co.com",
+  "private": true,
+  "dependencies": {
+    "saturn-app-common": "^1.0.0",
+    "react-scrollspy": "^3.4.2"
+  },
+  "devDependencies": {
+    "saturn-app-tools": "^1.0.0"
+  },
+  "scripts": {
+    "build": "run-s lint test:ci build:lib",
+    "build:lib": "saturn-app-tools build:lib",
+    "lint": "saturn-app-tools lint",
+    "lint:file": "saturn-app-tools lint:file",
+    "lint:file:fix": "saturn-app-tools lint:file:fix",
+    "lint:fix": "saturn-app-tools lint:fix",
+    "lint:watch": "saturn-app-tools lint:watch",
+    "start": "run-p start:docs test:watch",
+    "start:docs": "saturn-app-tools start:docs",
+    "start:with-lint": "run-p start:docs test:watch lint:watch",
+    "test": "saturn-app-tools test",
+    "test:ci": "saturn-app-tools test:ci",
+    "test:watch": "saturn-app-tools test:watch"
+  },
+  "saturn-app": {
+    "libRoot": "./src",
+    "port": 3010
+  }
+}
